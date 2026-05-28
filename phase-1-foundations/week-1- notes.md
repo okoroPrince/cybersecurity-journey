@@ -12,11 +12,9 @@ This handles the physical interaction between the user and the internet. e.g: Th
 
 ## Transport layer:
 This is where the three way handshake happens the syncronise and the acknoledgment
-| Browser | Syncronise(SYN) |
-|---------|-----------------|
-| Server | Acknoledge + Syncronise(ACK + SYN) |
-|--------|------------------|
-| Browser | Acknoledge(ACK) |
+- Browser Syncronise(SYN)
+- Server Acknoledge + Syncronise(ACK + SYN)
+- Browser Acknoledge(ACK)
 
 ## Internet layer:
 This layer is where the url that was sent in the application layer gets an ip address this is where the DNS stays
