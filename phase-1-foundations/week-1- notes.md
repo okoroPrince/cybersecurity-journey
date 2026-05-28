@@ -13,7 +13,9 @@ This handles the physical interaction between the user and the internet. e.g: Th
 ## Transport layer:
 This is where the three way handshake happens the syncronise and the acknoledgment
 | Browser | Syncronise(SYN) |
+|---------|-----------------|
 | Server | Acknoledge + Syncronise(ACK + SYN) |
+|--------|------------------|
 | Browser | Acknoledge(ACK) |
 
 ## Internet layer:
