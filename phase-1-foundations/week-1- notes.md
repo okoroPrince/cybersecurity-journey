@@ -8,7 +8,7 @@ I learnt about what happens when a "google.com" is writen in a browser, the diff
 - Link layer
 
 ## Aplication layer:
-This handles the physical interaction between the user and the internet. e.g: The browser(HTTP, HTML, CSS)
+This handles the protocol the application uses to comunicate(HTTP, FTP, DNS, HTTPS)
 
 ## Transport layer:
 This is where the three way handshake happens the syncronise and the acknoledgment
@@ -17,7 +17,7 @@ This is where the three way handshake happens the syncronise and the acknoledgme
 - Browser Acknoledge(ACK)
 
 ## Internet layer:
-This layer is where the url that was sent in the application layer gets an ip address this is where the DNS stays
+This layer helps routing of packets using the ip address
 
 ## Link layer:
 This is where the ip gets routed to the server with wifi and routers
