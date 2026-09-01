@@ -29,7 +29,7 @@ To create a form in html use this
 SQLite is a built in module in python that is used to create database and control it in python by adding updatin deleting etc the values in the table from python
 
 ## Difference between parameterized and vulnerable queries
-Parameterized quries are queries done where the value it passes into a variable before passing it into the query of it also uses f strings and `?` while vulnerable queries are queries where the values are passed directly into the query which is not good because it is subjectable to sql injection e.g:
+Parameterized quries are queries done where the value it passes into a variable before passing it into the query of it also uses `?` as placeholders while vulnerable queries are queries where the values are passed directly into the query which is not good because it is subjectable to sql injection e.g:
 
 **Parameterised query**
 ```python
